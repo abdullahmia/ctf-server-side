@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectDB = async () => {
-  await mongoose.connect(`mongodb://127.0.0.1:27017/drug-ctf`, {
+  await mongoose.connect(`mongodb+srv://rbshadow:rbshadow@ctf.vgftz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
